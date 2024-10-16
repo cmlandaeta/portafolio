@@ -28,8 +28,7 @@ function CaptureVisit() {
         axios
           .post(backUrl, visitorData)
           .then((response) => {
-            console.log("Datos enviados al backend");
-            console.log(response);
+            console.log("S->");
           })
           .catch((error) => {
             console.error("Error al enviar los datos", error);
