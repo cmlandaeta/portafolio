@@ -1,4 +1,4 @@
-import picture from "../assets/react.svg";
+import picture from "../assets/img/Me.jpeg";
 import TypedFadeComponent from "./Types";
 
 const Hero = () => {

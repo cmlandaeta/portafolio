@@ -30,7 +30,7 @@ const Contact = () => {
         <div className=" rounded-lg shadow-lg py-10 px-8 md:flex justify-between items-center">
           {/* <!-- Título --> */}
           <div className="mb-6 md:mb-0 md:w-1/3">
-            <h2 className="text-gray-700 text-4xl font-bold text-center md:text-left ">
+            <h2 className=" text-gray-700 text-4xl font-bold text-center md:text-left ">
               [ Hablemos ]
             </h2>
           </div>
@@ -43,15 +43,17 @@ const Contact = () => {
           </div>
           {/* <!-- Botón --> */}
           <div className="md:w-1/3 flex justify-center md:justify-end ">
-            <a
+            <button
               onClick={handleClick}
               id="regbtn"
               type="button"
-              className=" animate-pulse animate-infinite  bg-transparent border-2 border-blue-600 text-red-600 font-bold py-3 px-6 rounded-full hover:bg-white hover:text-blue-600  duration-300 ease-in-out transition-transform transform hover:scale-105 cursor-pointer"
+              className="animate-bounce animate-infinite animate-duration-700  bg-transparent border-2 border-blue-600 text-red-600 font-bold py-3 px-6 rounded-full hover:bg-white hover:text-blue-600  duration-300 ease-in-out transition-transform transform hover:scale-105 cursor-pointer"
             >
               Mi Asistente Virtual
-              <i className="material-symbols-outlined ml-2  ">call</i>
-            </a>
+              <i className="material-symbols-outlined ml-2 animate-bounce animate-infinite animate-duration-300">
+                call
+              </i>
+            </button>
           </div>
         </div>
       </div>

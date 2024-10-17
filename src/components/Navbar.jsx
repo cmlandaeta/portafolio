@@ -159,7 +159,7 @@ const Navbar = () => {
               onClick={CV}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-500 nav-link"
+              className="block text-lg text-gray-700 hover:text-blue-500 "
             >
               CV
             </a>
