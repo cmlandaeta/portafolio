@@ -6,16 +6,16 @@ const About = () => {
       <h2 className="text-3xl font-bold mb-4">Conoce más de mí</h2>
 
       <p className=" text-lg  max-w-2xl text-justify">
-        Soy Ingeniero Electronico con experiencia en telecomunicaciones y
-        conocimientos sólidos en GNU/Linux, seguridad informática, redes IP y
-        Telefonia IP. Cuento con habilidades como desarrollador web en React -
-        Vite y Node.js para soluciones para IVR, VoIP, Asterisk y aplicaciones
-        Web de voz. Puedo ayudarte implementar soluciones de comunicación de
-        alta calidad en tu empresa. Puedo llevar tus soluciones de comunicación
-        al siguiente nivel, la combinacion de mis habilidades en
-        telecomunicaciones, seguridad informática y desarrollo de software te
-        permitirá mejorar la eficiencia y efectividad de tus sistemas de
-        comunicación de manera significativa.
+        Soy Ingeniero Electronico, con 15 años de experiencia en áreas de VOIP,
+        redes, telecomunicaciones, Linux y seguridad informática, con
+        habilidades en desarrollo full stack en ReactJs, NodeJs, Python, MongoDB
+        y administración de sistemas. Mi linea proactiva me ha permitido aportar
+        soluciones innovadoras y mejoras continuas en cada proyecto. Este
+        recorrido me ha permitido evolucionar hacia un perfil DevOps, por lo que
+        actualmente, estoy explorando e integrando prácticas de DevOps, como
+        gestión de infraestructura con herramientas como Docker, CI/CD, y
+        monitoreo. Lo que contribuye con mi pasión por mejorar procesos de
+        desarrollo y despliegue a través de la automatización y la colaboración.
       </p>
       <div>
         <hr className="w-32 border-t-2 border-slate-500 opacity-50 mt-2" />

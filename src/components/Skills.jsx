@@ -8,6 +8,7 @@ import {
   faUserGear,
   faMedal,
 } from "@fortawesome/free-solid-svg-icons";
+import { faPython } from "@fortawesome/free-brands-svg-icons";
 
 const Skills = () => {
   return (
@@ -32,10 +33,6 @@ const Skills = () => {
             <p className="text-xl font-semibold mt-4 mb-6">Certificaciones</p>
             <ul className="space-y-4 text-justify">
               <li className="text-gray-700">
-                <FontAwesomeIcon icon={faNetworkWired} size="1" /> MTCNA de
-                MikroTik: Experto en redes y administración de equipos MikroTik.
-              </li>
-              <li className="text-gray-700">
                 <FontAwesomeIcon
                   icon={faLayerGroup}
                   size="1"
@@ -44,6 +41,16 @@ const Skills = () => {
                 Programador Full Stack: Habilidades avanzadas en el desarrollo
                 de aplicaciones web.
               </li>
+              <li className="text-gray-700">
+                <FontAwesomeIcon icon={faPython} size="1" className="pr-1" />
+                Backend Python: Desarrollo Backend.
+              </li>
+
+              <li className="text-gray-700">
+                <FontAwesomeIcon icon={faNetworkWired} size="1" /> MTCNA de
+                MikroTik: Experto en redes y administración de equipos MikroTik.
+              </li>
+
               <li className="text-gray-700">
                 <FontAwesomeIcon icon={faUserGear} size="1" className="pr-1" />{" "}
                 ITILv3: Certificación en IT Service Management para optimizar
@@ -63,6 +70,9 @@ const Skills = () => {
             <div className="flex flex-wrap justify-center mt-4 space-x-2 space-y-2">
               <span className="badge bg-blue-200 text-blue-800 px-3 py-1 rounded-full">
                 Full Stack
+              </span>
+              <span className="badge bg-blue-200 text-blue-800 px-3 py-1 rounded-full">
+                Python
               </span>
               <span className="badge bg-blue-200 text-blue-800 px-3 py-1 rounded-full">
                 Mikrotik
@@ -119,9 +129,9 @@ const Skills = () => {
               Soy un apasionado desarrollador con experiencia en la creación de
               soluciones web integrales. Destaco en el desarrollo frontend,
               utilizando React, HTML, CSS, Bootstrap y Tailwind para diseñar
-              interfaces atractivas. En el backend, me especializo en Node.js,
-              construyendo aplicaciones eficientes y escalables. Mi experiencia
-              abarca tecnologías clave como JavaScript, potenciando
+              interfaces atractivas. En el backend, me especializo en Node.js y
+              Python, construyendo aplicaciones eficientes y escalables. Mi
+              experiencia abarca tecnologías clave como JavaScript, potenciando
               interactividad y dinamismo. Además, soy experto en implementar
               soluciones avanzadas de Asterisk y sistemas de Respuesta de Voz
               Interactiva (IVR), fusionando desarrollo y comunicaciones.
@@ -159,6 +169,9 @@ const Skills = () => {
               </span>
               <span className="badge bg-blue-200 text-blue-800 px-3 py-1 rounded-full">
                 React - Vite
+              </span>
+              <span className="badge bg-blue-200 text-blue-800 px-3 py-1 rounded-full">
+                Python
               </span>
             </div>
           </div>
