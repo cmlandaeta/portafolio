@@ -114,11 +114,11 @@ const ChatWithBot = () => {
   const [userInput, setUserInput] = useState(""); // Estado para almacenar la pregunta del usuario
 
   useEffect(() => {
-    myBot
-      .wait({ waitTime: 1000 })
-      .then(() =>
-        myBot.message.add({ text: "¡Hola! ¿Tienes alguna pregunta?" })
-      );
+    myBot.wait({ waitTime: 1000 }).then(() =>
+      myBot.message.add({
+        text: "¡Hola! Estoy en Mantenimiento,  Vuelvo Pronto!",
+      })
+    );
   }, []);
 
   // Función para enviar los datos al backend y guardarlos en la BD usando Axios
@@ -153,6 +153,7 @@ const ChatWithBot = () => {
       </BotUI>
       <div className="mt-4">
         <input
+          disabled
           type="text"
           value={userInput}
           onChange={(e) =>

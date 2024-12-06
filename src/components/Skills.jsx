@@ -125,16 +125,15 @@ const Skills = () => {
               laptop_chromebook
             </i>
             <p className="text-xl font-semibold mt-4 mb-6">Desarrollo</p>
-            <p className="text-gray-700 text-justify">
+            <p className="text-gray-700 text-justify ">
               Soy un apasionado desarrollador con experiencia en la creación de
               soluciones web integrales. Destaco en el desarrollo frontend,
               utilizando React, HTML, CSS, Bootstrap y Tailwind para diseñar
               interfaces atractivas. En el backend, me especializo en Node.js y
-              Python, construyendo aplicaciones eficientes y escalables. Mi
-              experiencia abarca tecnologías clave como JavaScript, potenciando
-              interactividad y dinamismo. Además, soy experto en implementar
-              soluciones avanzadas de Asterisk y sistemas de Respuesta de Voz
-              Interactiva (IVR), fusionando desarrollo y comunicaciones.
+              Python, construyendo aplicaciones eficientes y escalables. Además,
+              soy experto en implementar soluciones avanzadas de Asterisk y
+              sistemas de Respuesta de Voz Interactiva (IVR), fusionando
+              desarrollo y comunicaciones.
             </p>
             <div className="flex flex-wrap justify-center mt-4 space-x-2 space-y-2">
               <span className="badge bg-blue-200 text-blue-800 px-3 py-1 rounded-full">
