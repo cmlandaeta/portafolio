@@ -70,9 +70,15 @@ const Projects = () => {
             Aplicacion web diseñada para gestionar usuarios y extensiones de
             telefonía utilizando tecnologías de WebRTC y comunicación en tiempo
             real. En este Proyecto implemento herramientas y metodologías
-            modernas, destacando mi experiencia en Docker, microservicios, y la
-            gestión de infraestructura en la nube, pilares esenciales para
+            modernas, destacando mi experiencia en Docker, microservicios, CI/CD
+            y la gestión de infraestructura en la nube, pilares esenciales para
             soluciones escalables y eficientes.
+          </p>
+          <p className="mt-2 text-sm text-justify text-gray-900 mb-6">
+            React| NodeJs| JWT|Docker |Microservicios
+            <p className="mt-2 text-sm text-center text-gray-900 mb-6">
+              WebRTC |CI/CD
+            </p>
           </p>
           <br />
           <p>
@@ -83,7 +89,7 @@ const Projects = () => {
               Mira el Demo Aquí
             </a>
           </p>
-          <img className="py-20" src={desp} alt="ivr-autogestion" />
+          <img className="py-10" src={desp} alt="ivr-autogestion" />
           <div className="mt-4 flex justify-center">
             <a
               onClick={() => handleClick(3)}
@@ -105,6 +111,13 @@ const Projects = () => {
             para funcionar como click to talk en una pagina web y hacer
             consultas a cualquier servicio de los clientes como PBX, CRM,
             Sistemas de Citas, Reservaciones, etc...
+          </p>
+
+          <p className="mt-2 text-sm text-justify text-gray-900 mb-6">
+            React |NodeJs |JWT |Asterisk |Microservicios
+            <p className="mt-2 text-sm text-center text-gray-900 mb-6">
+              |WebRT |CI/CD
+            </p>
           </p>
 
           <img src={ivr} alt="ivr-autogestion" />
@@ -131,7 +144,12 @@ const Projects = () => {
             una experiencia más personalizada y conveniente. Esta versión es más
             fluida y resalta la adaptabilidad del asistente.
           </p>
-
+          <p className="mt-2 text-sm text-justify text-gray-900 mb-6">
+            React |NodeJs |JWT |Docker |Microservicios
+            <p className="mt-2 text-sm text-center text-gray-900 mb-6">
+              |WebRTC |CI/CD
+            </p>
+          </p>
           <img src={virtual} alt="ivr-autogestion" />
           <div className="mt-4 flex justify-center">
             <a
