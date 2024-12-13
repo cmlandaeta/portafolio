@@ -6,16 +6,24 @@ const About = () => {
       <h2 className="text-3xl font-bold mb-4">Conoce más de mí</h2>
 
       <p className=" text-lg  max-w-2xl text-justify">
-        Soy Ingeniero Electronico, con 15 años de experiencia en áreas de VOIP,
-        redes, telecomunicaciones, Linux y seguridad informática, con
-        habilidades en desarrollo full stack en ReactJs, NodeJs, Python, MongoDB
-        y administración de sistemas. Mi linea proactiva me ha permitido aportar
-        soluciones innovadoras y mejoras continuas en cada proyecto. Este
-        recorrido me ha permitido evolucionar hacia un perfil DevOps, por lo que
-        actualmente, estoy explorando e integrando prácticas de DevOps, como
-        gestión de infraestructura con herramientas como Docker, CI/CD, y
-        monitoreo. Lo que contribuye con mi pasión por mejorar procesos de
-        desarrollo y despliegue a través de la automatización y la colaboración.
+        Soy Ingeniero Electronico, 15 años de experiencia en áreas de{" "}
+        <span className="font-semibold">
+          VOIP, redes, telecomunicaciones, Linux y seguridad informática, con
+          habilidades en desarrollo full stack en ReactJs, NodeJs, Pyhton,
+          MongoDB, Mysql y administración de sistemas.
+        </span>{" "}
+        Este recorrido profesional me ha permitido evolucionar hacia un perfil
+        de Desarrollo y Operaciones por lo que actualmente, estoy integrando
+        prácticas de{" "}
+        <span className="font-semibold">
+          {" "}
+          DevOps, como gestión de infraestructura con herramientas como Docker,
+          CI/CD, Despliegue y monitoreo.
+        </span>{" "}
+        Lo que contribuye con mi pasión por mejorar procesos de desarrollo,
+        aumentar la confianza en las aplicaciones, responder mejor a las
+        necesidades de los clientes y alcanzar los objetivos comerciales más
+        rápido.
       </p>
       <div>
         <hr className="w-32 border-t-2 border-slate-500 opacity-50 mt-2" />

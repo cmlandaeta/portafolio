@@ -8,8 +8,9 @@ const TypedFadeComponent = () => {
   useEffect(() => {
     const options = {
       strings: [
-        "Desarrollador Frontend y Backend",
-        "Además, soy experto en implementar soluciones avanzadas de Asterisk.",
+        "Desarrollador Frontend y Backend.",
+        "Además, soy experto en implementar soluciones avanzadas de VOIP.",
+        "Integrando prácticas DevOps como gestión de infraestructura con herramientas como Docker, CI/CD, Despliegue y monitoreo.",
         "Fusionando desarrollo y comunicaciones para Contact Center y IPPBX.",
       ],
       typeSpeed: 50,

@@ -68,10 +68,13 @@ const Contact = () => {
             </h2>
           </div>
           {/* <!-- Descripción --> */}
-          <div className="md:w-1/3 text-gray-700 text-lg text-justify leading-relaxed mb-6 md:mb-0  md:text-center">
+          <div className="md:w-1/3 text-gray-700 text-sm text-justify leading-relaxed mb-6 md:mb-0  md:text-center">
             <p>
-              Contactame para iniciar tu Proyecto. Estoy seguro de que podemos
-              trabajar juntos y generar proyectos increíbles.
+              ¡Contáctame para iniciar tu proyecto! Con años de experiencia en
+              desarrollo, VoIP, seguridad informática y más, puedo integrar
+              diversas áreas tecnológicas para crear soluciones eficientes y
+              personalizadas que se adapten a tus necesidades. Tu idea, hecha
+              realidad.
             </p>
           </div>
           {/* <!-- Botón --> */}
